@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p, button{
+    font-family: "Quantico", sans-serif;
+}
+header{
+    height: 350px;
+    background: url("../assets/img/cabecera.avif") 100% / cover;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 6px solid #83abc5;
+}
+header h1{
+    padding: 60px 0 20px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 5em;
+    font-weight: bolder;
+    text-shadow: 3px 3px 2px gray;
+}
+header p{
+    font-size: 2.5em;
+}
+body{
+    background: url("../assets/img/fondo.webp") 0 0 / cover
+    #e3f0f9;
+}
+.Main{
+    margin: 50px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.divBotones{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.divBotones button{
+    margin-left: 20px;
+    padding: 15px 30px;
+    background: whitesmoke;
+    color: #30a3dc;
+    border: 1px solid #30a3dc;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bolder;
+}
+.divBotones button:hover{
+    background: #83abc5;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition: 10ms;
+}
+.divForm{
+    margin: 50px auto 35px;
+    padding: 50px 150px;
+    background: rgba(245, 245, 245, 0.966);
+    border: 2px solid #30a3dc;
+    border-radius: 20px;
+}
+.divForm div{
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #30a3dc;
+}
+.divForm input, select{
+    padding: 5px 0;
+    border: 1px solid #30a3dc;
+}
+footer{
+    padding: 20px 0;
+    background: #30a3dc;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 0.10em;
+    word-spacing: 0.25em;
+}
